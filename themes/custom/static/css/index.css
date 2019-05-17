@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+SC');
+
+html {
+    font-family: 'Noto Serif SC', serif;
+}
+
+.PageTitle {
+    text-align: center;
+}
+
+.PageSection {
+    position: relative;
+    width: 95%;
+    max-width: 45em;
+    margin: 0 auto;
+}
+
+.PageSection p {
+    padding-bottom: .125em;
+}
+
+.PageSection h3 {
+    margin: 0;
+    line-height: 2em;
+}
+
+li {
+    padding: .5em;
+}
+
+a {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,12 @@
+{{ partial "header.html" . }}
+
+<h1 class="PageTitle">{{ .Title }}</h1>
+
+{{ range .Pages.ByParam "rate" }}
+    <div class="PageSection">
+        <h3>{{ .Title }}</h3>
+        {{ .Content }}
+    </div>
+{{ end }}
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,4 @@
+baseURL = "https://arvinlin.link/"
+languageCode = "en-us"
+title = "Arvin Lin"
+theme = "custom"
